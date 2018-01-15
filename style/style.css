@@ -1,0 +1,256 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Globalne style tekstu*/
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #7f8c8d;
+	line-height: 1.7;
+}
+
+p{
+	margin-top: 6px;
+}
+
+h2, h3, h4, label {
+	color: #45474f;
+}
+
+h1 {
+	font-size: 50px;
+	line-height: 1.2;
+
+}
+
+h2 {
+	font-size: 25px;
+	margin-bottom: 48px;
+	text-transform: uppercase;
+}
+
+h1, h3, h4, strong {
+	font-weight: 600;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+/* kolumny, kontener, sekcje*/
+
+/**/
+.one-third , .half {
+	width: 100%;
+	float: none;
+}
+@media screen and (min-width: 960px){
+	.one-third {
+	width: 33.333%;
+	float: left;
+
+	}
+
+	.half {
+		width: 50%;
+		float: left;
+	}
+}
+
+section {
+	clear: both;
+	padding: 90px 0;
+	overflow: auto;
+
+}
+
+.conteiner {
+	max-width: 1040px;
+	margin: 0 auto;
+}
+
+.center-text {
+	text-align: center;
+}
+
+
+/*przyciski*/
+.button {
+	display: inline-block;
+	padding: 8px 20px;
+	margin: 16px 0;
+	text-decoration: none;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 5px;
+}
+.button-light{
+	background: #ffffff;
+	color: #000000;
+
+}
+
+.button-dark{
+	background: #4DC3D5;
+	color: #ffffff;
+}
+
+/*nagłówek*/
+
+.top {
+	height: 60px;
+	background: #4DC3D5;
+}
+.top a {
+	color: #ffffff;
+	text-decoration: none;
+}
+.logo {
+	float: left;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 60px;
+}
+.main-menu {
+	float: right;
+	line-height: 60px;
+
+}
+.main-menu li {
+	float: left;
+	padding: 0 5px;
+}
+/*styl dla banera*/
+
+.banner {
+	background: black;
+	color: #ffffff;
+	padding: 200px 0;
+	background: url("../img/top.jpg") 0px -190px;
+}
+.banner h1 {
+	margin-bottom: 30px;
+}
+
+/*styl dla intro*/
+.intro img {
+	margin-bottom: 30 px;
+	width: 180px;
+	height: 180px;
+}
+.intro h3 {
+	color: #4DC3D5;
+	margin-bottom: 10px;
+}
+
+/*styl dla promo*/
+
+.promo {
+	background: #FF6633;
+
+}
+.promo h2 {
+	color: #ffffff;
+	margin-bottom: 10px;
+	font-weight: 600;
+}
+
+.promo p {
+	color: #dddddd;
+}
+/*sekcja kontakt*/
+
+.contact input {
+	margin-bottom: 16px;
+	border-radius: 2px;
+	border: 1px solid #CCCCCC;
+	padding: 8px;
+	width: 80%;
+}
+
+.contact textarea {
+	margin-bottom: 16px;
+	border-radius: 2px;
+	border: 1px solid #CCCCCC;
+	padding: 8px;
+	width: 80%;
+	height: 150px;
+	resize: none;
+}
+.contact .half {
+	margin-top: 16px;
+}
+.contact label{
+	padding: 0;
+}
+
+
+/*footer*/
+
+.end {
+	background: #000000;
+	color: #ffffff;
+	padding: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
